@@ -14,7 +14,8 @@ public class PenjualanMobil {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Koneksi k = new Koneksi();
+        k.connect();
     }
     
 }
